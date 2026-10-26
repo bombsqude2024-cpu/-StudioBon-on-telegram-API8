@@ -8,7 +8,7 @@ import time
 import threading
 import socket
 import weakref
-import ba as babase
+import bs as babase
 import bui
 import bs
 import bsUI as party
