@@ -8,16 +8,17 @@ import time
 import threading
 import socket
 import weakref
-import bs as babase
-import bui
-import bs
-import bsUI as party
-
-teck = babase.apptimer
-gsw = bui.get_special_widget
-push = bui.screenmessage
-Plugin = babase.Plugin
-bw = bui.buttonwidget
+import babase
+import bauiv1 as bui
+import bascenev1 as bs
+from babase import Plugin
+from bauiv1 import (
+    buttonwidget as bw,
+    apptimer as teck,
+    screenmessage as push,
+    get_special_widget as gsw,
+)
+from bauiv1lib import party
 
 # API-8 compatibility aliases. These are intentionally defensive because the
 # exact exposed names differ between 1.7.28 and 1.7.30 builds.
